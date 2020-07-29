@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Kafka", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Kafka.Tests", "test\Serilog.Sinks.Kafka.Tests\Serilog.Sinks.Kafka.Tests.csproj", "{9CD84F59-87C4-4338-8702-C0F59CFCEB0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.AliyunLog", "src\Serilog.Sinks.AliyunLog\Serilog.Sinks.AliyunLog.csproj", "{7764637F-5A52-4DF9-9E09-1F0E0E6CCD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.AliyunLog", "src\Serilog.Sinks.AliyunLog\Serilog.Sinks.AliyunLog.csproj", "{7764637F-5A52-4DF9-9E09-1F0E0E6CCD5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.AliyunLog.Tests", "test\Serilog.Sinks.AliyunLog.Tests\Serilog.Sinks.AliyunLog.Tests.csproj", "{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.AliyunLog.Tests", "test\Serilog.Sinks.AliyunLog.Tests\Serilog.Sinks.AliyunLog.Tests.csproj", "{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaSinkBenchmark", "test\KafkaSinkBenchmark\KafkaSinkBenchmark.csproj", "{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{9CD84F59-87C4-4338-8702-C0F59CFCEB0D} = {DEB66B52-96D2-4DAF-9122-0CD08A21FEF5}
 		{7764637F-5A52-4DF9-9E09-1F0E0E6CCD5D} = {2D3932A4-FD80-4CF8-9E3D-0A41FEF55525}
 		{77FD0DE1-6ABD-4610-BE71-6225C1A9A7B0} = {DEB66B52-96D2-4DAF-9122-0CD08A21FEF5}
+		{0BAC0172-AD0A-4918-ABF4-3CF4DD8ACB66} = {DEB66B52-96D2-4DAF-9122-0CD08A21FEF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48484494-4AD6-42B3-A86D-827CA2DABC7C}
